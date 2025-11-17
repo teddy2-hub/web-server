@@ -13,4 +13,18 @@ RUN npm install
 # 5. 소스 코드 전체 복사하기
 COPY . .
 
-# 6. 
+# 6. 서버가 사용하는 포트 오픈하기
+EXPOSE 5000
+
+# 7. 서버 실행 명령
+CMD [ "node", "index.js" ]
+# CMD ["node", "./bin/www"] - express-generator
+
+# 8. Docker이미지 만들기
+# docker build -t web-server-image .
+
+# 9. Docker 컨테이너 실행
+# docker run -d -p 5000:5000 --name web-server web-server-image
+
+#10. 브라우저에서 접속 확인하기
+# http://xn--ip-cb5ju9v:5000
