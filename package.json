@@ -1,0 +1,24 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teddy2-hub/web-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/teddy2-hub/web-server/issues"
+  },
+  "homepage": "https://github.com/teddy2-hub/web-server#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
