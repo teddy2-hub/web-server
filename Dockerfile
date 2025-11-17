@@ -1,5 +1,5 @@
 # 1. Node.js 20버전
-FROM node:20
+FROM node:22
 
 # 2. 컨테이너 안에서 작업할 디렉토리 저장하기 
 WORKDIR /usr/src/app
